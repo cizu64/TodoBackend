@@ -1,12 +1,18 @@
 This project contains codes for the NextJs Todo application available at this repo:https://github.com/cizu64/todoapp
 
-To get the project up and running, run this command:
+1. Create the tables by running ef migration:
 
 ```
-dotnet run -lp https -project TodoBackend
+ dotnet ef migration add initial
+```
+
+2. To get the project up and running, run this command:
+
+```
+dotnet run -lp https 
 ```
 
 And open the swagger page for the API description
 
-http://localhost:5235/swagger/index.html
+https://localhost:7233/swagger/index.html
 
