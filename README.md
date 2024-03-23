@@ -15,7 +15,7 @@ This project contains codes for the NextJs Todo application available at this re
 dotnet run -lp https 
 ```
 
-<i>You can also install vscode and the C# Dev kit extension.</i>
+<i>You can also install vscode and the C# Dev kit extension to open the project and run directly from visual studio code.</i>
 
 Finally, open the swagger page for the API description
 
