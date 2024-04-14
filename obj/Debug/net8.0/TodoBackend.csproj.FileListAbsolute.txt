@@ -111,3 +111,4 @@
 /Users/charles/ReactApps/TodoBackend/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/charles/ReactApps/TodoBackend/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
 /Users/charles/ReactApps/TodoBackend/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/charles/ReactApps/TodoBackend/obj/Debug/net8.0/TodoBackend.sourcelink.json

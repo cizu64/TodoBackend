@@ -82,6 +82,17 @@ public class TodoController : ControllerBase
         return Ok(new Response{detail = "Todo deleted"});
     }
 
+    [HttpPut("{todoId}")]
+    public async Task<IActionResult> EditTodo(int todoId, [FromBody] EditTodoDTO dto)
+    {
+        var todo = await todoRepository.GetTodo(t=>t.Id==todoId);
+        todo.Title = dto.Title;
+        todo.Description = dto.Description;
+        todo.IsComplete = dto.IsComplete;
+        await todoRepository.UpdateTodo(todo);
+        return Ok(new Response{detail="Todo edited"});
+    }
+
     [HttpPut("{todoId:int}")]
     public async Task<IActionResult> CompleteTodo(int todoId, [FromBody] CompleteTodoDTO dto)
     {
