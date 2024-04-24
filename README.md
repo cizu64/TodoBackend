@@ -1,6 +1,8 @@
 This project contains codes for the NextJs Todo application available at this repo: https://github.com/cizu64/todoapp 
 
-Before you begin, ensure that you have Postgres sql installed on your local machine because this project currently uses postgres as the database. To install postgress visit https://www.postgresql.org/ 
+Before you begin, ensure that you have Postgres sql installed on your local machine because this project currently uses postgres as the database. To install postgres visit https://www.postgresql.org/ 
+
+installer: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 1. Create the "Todo" database in postgres
    
