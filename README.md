@@ -4,17 +4,17 @@ Before you begin, ensure that you have Postgres sql installed on your local mach
 
 1. Create the "Todo" database in postgres
    
-2. Create the tables by applying ef migration:
+2. If you don't have DotNet SDK or Runtime installed, visit https://dotnet.microsoft.com/en-us/download/dotnet/8.0 and install the runtime. The runtime is only needed to run the application. You can also install the SDK if you are having difficulty installing the runtime because it does not provide an installer for mac users.
+
+   <i>Note: Make sure you install the runtime or sdk version 8.0</i>
+
+3. Create the tables by applying ef migration:
 
 ```
  dotnet ef database update
 ```
-
-3. If you don't have DotNet SDK or Runtime installed, visit https://dotnet.microsoft.com/en-us/download/dotnet/8.0 and install the runtime. The runtime is only needed to run the application. You can also install the SDK if you are having difficulty installing the runtime because it does not provide an installer for mac users.
-
-   <i>Note: Make sure you install the runtime or sdk version 8.0</i>
    
-3. Navigate to the project root path in the terminal and run this command:
+4. Navigate to the project root path in the terminal and run this command:
 
 ```
 dotnet run -lp https 
